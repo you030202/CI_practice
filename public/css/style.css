@@ -1,0 +1,119 @@
+.centent{
+    width: 100%;
+    height: 1100px;
+}
+.s_tablebar{
+    margin: 0 auto;
+    width: 740px;
+    position: relative;
+    padding-top: 40px;
+}
+.s_tablebar input{
+    position: absolute;
+    right: 0;
+    width: 200px;
+    height: 30px;
+    border: none;
+}
+.s_tablebar input:focus {
+    outline:1px solid beige;
+}
+.s_tablebar table{
+    padding-top: 40px;
+}
+.select_head th{
+    border-top: beige 1px solid;
+    border-bottom: beige 1px solid;
+    height: 50px;
+    font-size: 15px;
+    color: #4e4e4e;
+    font-weight: bold;
+}
+.s_tablebar table tbody tr td{
+    text-align: center;
+    color: rgb(136, 135, 135);
+    height: 50px;
+    border-bottom: beige 1px solid;
+    font-size: 14px;
+    padding: 0;
+}
+.s_tablebar table tbody tr:hover{
+    background-color: rgb(240, 239, 239);
+    
+}
+.s_num{
+    width: 60px;
+}
+.s_title{
+    width: 440px;
+}
+.s_post{
+    width: 120px;
+}
+.s_date{
+    width: 220px;
+}
+.s_view{
+    width: 60px;
+}
+.s_tablebar button{
+    color: blue;
+    background-color: white;
+    border: none;
+}
+
+
+.textVar{
+    width: 900px;
+    height: 600px;
+    margin: 0 auto;
+    border: black solid 1px;
+    padding: 20px;
+}
+.text_header{
+    display: table;
+    width: 100%;
+    height: 40px;
+}
+.text_type{
+    display: table-cell;
+    width: 600px;
+}
+.text_name{
+    display: table-cell;
+    width: 300px;
+}
+
+.text_type input{
+    width: 400px;
+    height: 30px;
+}
+
+.text_name input{
+    width: 150px;
+    height: 30px;
+}
+.text_post{
+    margin-top: 30px;
+    width: 900px;
+    height: 510px;
+}
+.text_post textarea{
+    width: 100%;
+    height: 500px;
+}
+.text_type input:focus {
+    outline:none;
+}
+.text_name input:focus {
+    outline:none;
+}
+.text_post textarea:focus {
+    outline:none;
+}
+.textVar button{
+    color: blue;
+    background-color: white;
+    border: none;
+    float: right;
+}
